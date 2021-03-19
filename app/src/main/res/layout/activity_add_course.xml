@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCourse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="178dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Course name:"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/answecoursename2"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="28dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Teacher name: "
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#70A6B6" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="234dp" />
+
+        <Button
+            android:id="@+id/addcourse"
+            android:layout_width="141dp"
+            android:layout_height="109dp"
+            android:background="@drawable/button"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_add"
+            android:text="@string/add_course" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

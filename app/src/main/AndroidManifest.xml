@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cengo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StreamStudent"></activity>
+        <activity android:name=".StreamTeacher" />
+        <activity android:name=".SubmissionsList" />
+        <activity android:name=".SubmissionsMain" />
+        <activity android:name=".HomeworkUpload" />
+        <activity android:name=".EditHomework" />
+        <activity android:name=".DeleteHomework" />
+        <activity android:name=".AddHomework" />
+        <activity android:name=".AssignmentTeacher" />
+        <activity android:name=".Assignments_Student" />
+        <activity android:name=".compose_email" />
+        <activity android:name=".MessagesMainPage" />
+        <activity android:name=".AnnouncementStudent" />
+        <activity android:name=".AnnoncementStudent" />
+        <activity android:name=".CoursesStudent" />
+        <activity android:name=".MainPageStudent" />
+        <activity android:name=".DeleteAnnouncement" />
+        <activity android:name=".EditAnnouncement" />
+        <activity android:name=".AddAnnouncement" />
+        <activity android:name=".AnnouncementTeacher" />
+        <activity android:name=".DeleteCourse" />
+        <activity android:name=".EditCourse" />
+        <activity android:name=".AddCourse" />
+        <activity android:name=".CoursesTeacher" />
+        <activity android:name=".MainPageTeacher" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

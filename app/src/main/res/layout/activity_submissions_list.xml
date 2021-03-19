@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubmissionsList">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="6dp">
+    </ListView>
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="71dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/homework2" />
+
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessagesMainPage">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <Button
+                android:id="@+id/compose"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:background="@drawable/bottonpink"
+                android:drawableTop="@drawable/sendemail"
+                android:gravity="center"
+                android:text="@string/compose" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/inbox"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:background="@drawable/bottonpink"
+                android:drawableTop="@drawable/inbox"
+                android:gravity="center"
+                android:text="@string/inbox" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/sent"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:background="@drawable/bottonpink"
+                android:drawableTop="@drawable/sentemail"
+                android:gravity="center|center_vertical"
+                android:text="@string/sent" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="278dp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

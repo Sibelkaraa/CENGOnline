@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditCourse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="39dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/teacher_rename"
+                android:textColor="#0E0E0E"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerteacher"
+                android:layout_width="218dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/coursenamean"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/course_rename"
+                android:textColor="#070707"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/spinnercourse"
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/editpng" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="332dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/edit_course_select"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view8"
+            android:layout_width="411dp"
+            android:layout_height="385dp"
+            android:background="@color/pink" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="131dp"
+            android:layout_height="87dp"
+            android:background="@drawable/button"
+            android:drawableTop="@drawable/edit"
+            android:text="@string/edit_course" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CengO</string>
+    <string name="app_name2">CengOnline</string>
+    <string name="user_name">Email:</string>
+    <string name="password">Password:</string>
+    <string name="hint1">Please enter your email</string>
+    <string name="hint2">*************</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="hintname">Please enter your name</string>
+    <string name="hintsurname">Please enter your surname</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="courses">COURSES</string>
+    <string name="announcements">Announcements</string>
+    <string name="messaging">MESSAGING</string>
+    <string name="assignments">ASSIGNMENT</string>
+    <string name="add_course">Add Course</string>
+    <string name="delete_course">Delete Course</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="course_name">Course Name:</string>
+    <string name="teacher_name">Teacher Name:</string>
+    <string name="edit_course_select">Please select the course you want to edit.</string>
+    <string name="course_rename">Course Rename:</string>
+    <string name="teacher_rename">Teacher Rename:</string>
+    <string name="delete_course_select">Please select the course you want to delete.</string>
+    <string name="add_announcements">Add</string>
+    <string name="delete_announcements">Delete</string>
+    <string name="edit_announcements">EDIT</string>
+    <string name="announcement_text">Announcement</string>
+    <string name="new_announcement">New Announcement:</string>
+    <string name="edit_announcement_select">Please select the announcement you want to edit.</string>
+    <string name="delete_announcement_select">Please select the announcement you want to delete.</string>
+    <string name="inbox">INBOX</string>
+    <string name="sent">SENT</string>
+    <string name="compose">SEND\nEMAIL</string>
+    <string name="welcome">Welcome to CengOnline</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+</resources>
+

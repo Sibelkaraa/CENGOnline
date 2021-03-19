@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp">
+
+        <Space
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/add7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottonpink"
+            android:drawableTop="@drawable/ic_add"
+            android:text="add"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/edit7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottonpink"
+            android:drawableTop="@drawable/edit"
+            android:text="@string/edit_announcements"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/delete7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottonpink"
+            android:drawableTop="@drawable/delete"
+            android:text="@string/delete_announcements"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="608dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:scrollbars="vertical" />
+
+
+</RelativeLayout>

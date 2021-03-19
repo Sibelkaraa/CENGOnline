@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAnnouncement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="31dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/course_rename"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnercourse"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edittext" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/teacher_rename"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerteacher"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edittext" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/announcement_text"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/announcements4"
+                android:layout_width="208dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textMultiLine|textPersonName" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="@string/edit_announcement_select"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="369dp"
+            android:background="@color/student_button_color" />
+
+        <Space
+            android:layout_width="425dp"
+            android:layout_height="24dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/button"
+            android:drawableTop="@drawable/edit"
+            android:text="@string/edit_announcements" />
+
+    </LinearLayout>
+</ScrollView>
